@@ -1,0 +1,29 @@
+record
+packed decimal(11,0,unsigned) ac_c20_prscrbr_provdr_npi_no; // New file for P7805a Feb'2010 Release
+  packed decimal(10,2) ac_value_amt_01;
+  packed decimal(10,2) ac_value_amt_02;
+  packed decimal(10,2) ac_value_amt_03;
+  packed decimal(10,2) ac_value_amt_04;
+  packed decimal(10,2) ac_value_amt_05;
+  packed decimal(10,2) ac_value_amt_06;
+  packed decimal(10,2) ac_value_amt_07;
+  packed decimal(10,2) ac_value_amt_08;
+  packed decimal(10,2) ac_value_amt_09;
+  packed decimal(10,2) ac_value_amt_10;
+  packed decimal(10,2) ac_value_amt_11;
+  packed decimal(10,2) ac_value_amt_12;
+  packed decimal(10,2) ac_value_amt_13;
+  packed decimal(10,2) ac_value_amt_14;
+  packed decimal(10,2) ac_value_amt_15;
+  packed decimal(10,2) ac_value_amt_16;
+  packed decimal(10,2) ac_value_amt_17;
+  packed decimal(10,2) ac_value_amt_18;
+  packed decimal(11,0,unsigned) ac_billing_npi;
+  packed decimal(11,0,unsigned) ac_servicing_npi;
+  packed decimal(11,0) ac_cppd_hsptl_pin;       // New field added for p7140f Nov10 release //
+  packed decimal(10,0,unsigned) ac_dlgtn_ln_item; // New field added for p7140f Nov10 release //
+  packed decimal(10,0,unsigned) ac_dlgtn_qlfr_id; // New field added for p7140f Nov10 release //
+  packed decimal(10,0) ac_cl_ntwk_alt_id;       // Added new field as part of P8262d May'2012 Release 
+  packed decimal(10,0) ac_cl_alt_nap_id;        // Added new field as part of P8262d May'2012 Release
+  packed decimal(10,2) ac_max_refbase_amt;      // Added new field as part of P8262e May'2012 Release
+end;
